@@ -1,0 +1,33 @@
+[branch]
+	autosetuprebase = always
+[user]
+	name = Batuhan Apaydın
+	email = batuhan.apaydin@trendyol.com
+[commit]
+	template = /Users/batuhan.apaydin/.stCommitMsg
+	cleanup = strip
+[color]
+	ui = auto
+[core]
+    editor = code --wait
+    pager = delta
+	excludesfile = /Users/batuhan.apaydin/.gitignore_global
+[rerere]
+	enabled = true
+[http]
+	sslVerify = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+    required = true
+[delta]
+    plus-color = "#012800"
+    minus-color = "#340001"
+    syntax-theme = Monokai Extended
+	side-by-side = true
+	line-numbers = true
+[interactive]
+    diffFilter = delta --color-only
+[init]
+	defaultBranch = master
