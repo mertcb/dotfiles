@@ -1,0 +1,7 @@
+pane	workstation-0	1	:zsh	0	:-	1	:/Users/batuhan.apaydin/test-p1-1devops.idc	0	zsh	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	2	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	1	zsh	:
+pane	workstation-0	1	:zsh	0	:-	3	:/Users/batuhan.apaydin/personal-projects/cts-security-admin-pipeline	0	zsh	:
+pane	workstation-0	2	:ruby	1	:*	1	:/Users/batuhan.apaydin	1	ruby	:/bin/zsh
+window	workstation-0	1	0	:-	eceb,139x40,0,0[139x20,0,0{69x20,0,0,1,69x20,70,0,7},139x19,0,21,6]
+window	workstation-0	2	1	:*	5812,139x40,0,0,13
+state	workstation-0	

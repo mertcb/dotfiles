@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	podman-machine	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin	1	zsh	:
+window	workinstation-0	1	1	:*	118e,151x45,0,0[151x22,0,0,19,151x22,0,23,21]
+state	workinstation-0	

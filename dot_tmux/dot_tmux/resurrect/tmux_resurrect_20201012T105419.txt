@@ -1,0 +1,5 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	make	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	watch	:watch kubectl get pods -n platform
+pane	workinstation-0	1	:zsh	1	:*	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	watch	:watch kubectl get pods
+window	workinstation-0	1	1	:*	10a3,231x64,0,0{115x64,0,0,15,115x64,116,0[115x32,116,0,35,115x31,116,33,36]}
+state	workinstation-0	

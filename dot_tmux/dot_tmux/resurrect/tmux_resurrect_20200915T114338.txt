@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	docker	:docker buildx build -t sfrontregistry.trendyol.com/trendyol-consul-template-injector-server:base -f build/package/Dockerfile.base .
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-sidecar	0	zsh	:
+window	workinstation-0	1	1	:*	313e,167x39,0,0{83x39,0,0,2,83x39,84,0,3}
+state	workinstation-0	

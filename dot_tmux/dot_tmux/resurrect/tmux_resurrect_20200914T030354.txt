@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/pocs/ckad	0	zsh	:
+window	workinstation-0	1	1	:*	006a,151x39,0,0{75x39,0,0,2,75x39,76,0,3}
+state	workinstation-0	

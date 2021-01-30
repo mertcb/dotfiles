@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/opa-synker	0	zsh	:
+window	workinstation-0	1	1	:*	b188,151x39,0,0[151x19,0,0,2,151x19,0,20,3]
+state	workinstation-0	

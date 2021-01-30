@@ -1,9 +1,10 @@
-zmodload zsh/zprof
+autoload -Uz compinit
+compinit
 fpath+=~/.zfunc
 EDITOR="code -w"
 # If command execution time above min. time, plugins will not output time.
 ZSH_COMMAND_TIME_MIN_SECONDS=1
-
+alias kubectl="kubecolor"
 alias exa="exa --classify --icons --group-directories-first --color-scale --color always "
 . $(pack completion --shell zsh)
 # Message to display (set to "" for disable).
@@ -13,8 +14,10 @@ export TERM="xterm-256color"
 ZSH_COMMAND_TIME_COLOR="cyan"
 # neofetch --ascii_distro Linux
 export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
-export PATH=${PATH}:~/Library/Python/3.7/bin
+export PATH=${PATH}:~/Library/Python/3.9/bin
 #If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 source ~/zsh-interactive-cd.plugin.zsh

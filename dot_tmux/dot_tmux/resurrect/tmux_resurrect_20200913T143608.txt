@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin	0	noti	:noti pomodoro start --wait --duration 15
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/pocs/ckad	1	gh	:gh repo clone mmumshad/kubernetes-the-hard-way
+window	workinstation-0	1	1	:*	0acb,231x39,0,0{115x39,0,0,2,115x39,116,0,3}
+state	workinstation-0	

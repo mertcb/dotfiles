@@ -1,0 +1,7 @@
+pane	workstation-0	1	:zsh	0	:-	1	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	1	vim	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	2	:/Users/batuhan.apaydin/test-p1-1devops.idc	0	zsh	:
+pane	workstation-0	1	:zsh	0	:-	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:/bin/zsh
+pane	workstation-0	2	:vim	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/docker/config-sidecar	1	vim	:vim
+window	workstation-0	1	0	:-	950d,182x49,0,0[182x24,0,0{91x24,0,0,11,90x24,92,0,16},182x24,0,25,15]
+window	workstation-0	2	1	:*	68f6,182x49,0,0,17
+state	workstation-0	

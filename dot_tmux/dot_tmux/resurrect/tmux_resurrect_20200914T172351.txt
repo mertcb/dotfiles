@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/pocs/golang-pocs/go-docker-webserver	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/build/package	1	zsh	:
+window	workinstation-0	1	1	:*	0ad4,231x39,0,0{115x39,0,0,8,115x39,116,0,9}
+state	workinstation-0	

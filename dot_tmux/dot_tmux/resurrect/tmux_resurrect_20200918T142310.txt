@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-sidecar	1	vim	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/helm/config-injector-chart	0	zsh	:
+window	workinstation-0	1	1	:*	a923,231x64,0,0[231x32,0,0,7,231x31,0,33,14]
+state	workinstation-0	

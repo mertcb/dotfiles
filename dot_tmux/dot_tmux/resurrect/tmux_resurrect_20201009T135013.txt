@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/stage	1	kubectl	:/Users/batuhan.apaydin/.asdf/installs/kubectl/1.19.2/bin/kubectl edit secrets -n platform config-sidecar-injector-token-secret
+window	workinstation-0	1	1	:*	993f,151x45,0,0{75x45,0,0,15,75x45,76,0,33}
+state	workinstation-0	

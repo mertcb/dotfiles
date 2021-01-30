@@ -1,0 +1,6 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/alicloud	1	zsh	:
+pane	workinstation-0	2	:zsh	0	:#-	1	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/prod	0	zsh	:
+pane	workinstation-0	2	:zsh	0	:#-	2	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/prod	1	zsh	:
+window	workinstation-0	1	1	:*	c041,151x45,0,0,4
+window	workinstation-0	2	0	:#-	d702,151x45,0,0[151x22,0,0,1,151x22,0,23,2]
+state	workinstation-0	

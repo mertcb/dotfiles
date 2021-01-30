@@ -1,0 +1,12 @@
+pane	workstation-0	1	:zsh	0	:-	1	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	0	zsh	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	2	:/Users/batuhan.apaydin/test-p1-1devops.idc	0	zsh	:
+pane	workstation-0	1	:zsh	0	:-	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	4	:/Users/batuhan.apaydin/personal-projects/cts-security-admin-pipeline	1	zsh	:
+pane	workstation-0	2	:zsh	0	:	1	:/Users/batuhan.apaydin/pocs/docker-pocs/tini-and-distroless-poc	1	zsh	:
+pane	workstation-0	2	:zsh	0	:	2	:/Users/batuhan.apaydin/pocs/docker-pocs/tini-and-distroless-poc	0	zsh	:
+pane	workstation-0	3	:zsh	1	:*	1	:/Users/batuhan.apaydin/pocs/helm-pocs/char-untar/mysql	0	bat	:bat templates/deployment.yaml
+pane	workstation-0	3	:zsh	1	:*	2	:/Users/batuhan.apaydin/pocs/helm-pocs/char-untar/mysql	1	zsh	:
+window	workstation-0	1	0	:-	19f5,182x49,0,0[182x24,0,0{91x24,0,0,11,90x24,92,0,16},182x24,0,25{91x24,0,25,15,90x24,92,25,29}]
+window	workstation-0	2	0	:	4b52,182x49,0,0[182x24,0,0,22,182x24,0,25,24]
+window	workstation-0	3	1	:*	6d7d,182x49,0,0{91x49,0,0,31,90x49,92,0,32}
+state	workstation-0	

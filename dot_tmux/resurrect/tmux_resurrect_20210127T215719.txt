@@ -1,0 +1,8 @@
+pane	workstation-0	1	:zsh	0	:-	1	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	1	vim	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	2	:/Users/batuhan.apaydin/test-p1-1devops.idc	0	zsh	:
+pane	workstation-0	1	:zsh	0	:-	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:/bin/zsh
+pane	workstation-0	2	:docker	1	:*	1	:/Users/batuhan.apaydin/pocs/docker-pocs/tini-and-distroless-poc	0	docker	:docker container run tini-with-distroless:latest
+pane	workstation-0	2	:docker	1	:*	2	:/Users/batuhan.apaydin/pocs/docker-pocs/tini-and-distroless-poc	1	docker	:docker container exec -ti c1b7bb88d895 sh
+window	workstation-0	1	0	:-	950d,182x49,0,0[182x24,0,0{91x24,0,0,11,90x24,92,0,16},182x24,0,25,15]
+window	workstation-0	2	1	:*	4b52,182x49,0,0[182x24,0,0,22,182x24,0,25,24]
+state	workstation-0	

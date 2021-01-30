@@ -1,0 +1,3 @@
+pane	workstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/dev	1	kubectl	:/Users/batuhan.apaydin/.asdf/installs/kubectl/1.20.2/bin/kubectl -n search-team get pods --selector app=suggestion-api -w
+window	workstation-0	1	1	:*	c5de,212x56,0,0,1
+state	workstation-0	

@@ -1,0 +1,7 @@
+pane	workstation-0	1	:zsh	0	:-	1	:/Users/batuhan.apaydin/test-p1-1devops.idc	0	zsh	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	2	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	1	zsh	:
+pane	workstation-0	1	:zsh	0	:-	3	:/Users/batuhan.apaydin/personal-projects/cts-security-admin-pipeline	0	zsh	:
+pane	workstation-0	2	:trivy	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/docker/config-sidecar	1	trivy	:trivy registry.trendyol.com/platform/base/poc/simple-golang-app:1b0c5cad
+window	workstation-0	1	0	:-	acf5,255x67,0,0[255x34,0,0{128x34,0,0,1,126x34,129,0,7},255x32,0,35,6]
+window	workstation-0	2	1	:*	ce65,255x67,0,0,8
+state	workstation-0	

@@ -1,0 +1,9 @@
+pane	workinstation-0	1	:zsh	0	:-	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/helm/config-injector-chart	1	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	0	:-	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:
+pane	workinstation-0	1	:zsh	0	:-	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
+pane	workinstation-0	1	:zsh	0	:-	4	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/docker/config-sidecar	0	zsh	:
+pane	workinstation-0	2	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/prod	0	watch	:/bin/zsh
+pane	workinstation-0	2	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/prod	1	zsh	:
+window	workinstation-0	1	0	:-	2f11,231x64,0,0{115x64,0,0[115x32,0,0,1,115x31,0,33,10],115x64,116,0[115x32,116,0,6,115x31,116,33,9]}
+window	workinstation-0	2	1	:*	540a,231x64,0,0[231x32,0,0,11,231x31,0,33,12]
+state	workinstation-0	

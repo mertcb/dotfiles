@@ -1,0 +1,4 @@
+pane	workstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	0	zsh	:/bin/zsh
+pane	workstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	1	zsh	:/bin/zsh
+window	workstation-0	1	1	:*	6337,196x51,0,0[196x25,0,0,11,196x25,0,26,15]
+state	workstation-0	

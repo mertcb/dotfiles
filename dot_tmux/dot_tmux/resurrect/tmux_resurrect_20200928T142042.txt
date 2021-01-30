@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/pocs/kubebuilder-getting-started	0	kind	:kind create cluster --name guestbook
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/pocs/kubebuilder-getting-started	1	zsh	:oc completion zsh
+window	workinstation-0	1	1	:*	6efa,231x64,0,0{115x64,0,0,21,115x64,116,0,22}
+state	workinstation-0	

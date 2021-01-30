@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	docker	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:/bin/zsh
+window	workinstation-0	1	1	:*	140f,231x64,0,0[231x32,0,0,15,231x31,0,33,23]
+state	workinstation-0	

@@ -1,0 +1,4 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/opa-synker	0	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/authz-admission-webhook	1	zsh	:
+window	workinstation-0	1	1	:*	9410,231x64,0,0[231x32,0,0,15,231x31,0,33,45]
+state	workinstation-0	

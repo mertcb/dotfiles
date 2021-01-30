@@ -1,0 +1,6 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/helm/config-injector-chart	0	vim	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/docker/config-sidecar	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	4	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	1	gitlab-runner	:gitlab-runner exec docker openmr --env GITLAB_ACCESS_TOKEN=7KnWCshPt2NvVsxPporX --env SOURCE_BRANCH=config-sidecar-version-update --env GITLAB_HOST=https://gitlab-sfront.trendyol.com --env GITLAB_PROJECT_ID=201
+window	workinstation-0	1	1	:*	e8e7,231x64,0,0[231x32,0,0{115x32,0,0,1,115x32,116,0[115x16,116,0,6,115x15,116,17,9]},231x31,0,33,4]
+state	workinstation-0	

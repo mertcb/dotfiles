@@ -1,0 +1,11 @@
+pane	workstation-0	1	:zsh	0	:-	1	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	0	zsh	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	2	:/Users/batuhan.apaydin/test-p1-1devops.idc	0	zsh	:
+pane	workstation-0	1	:zsh	0	:-	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	4	:/Users/batuhan.apaydin/personal-projects/cts-security-admin-pipeline	1	zsh	:
+pane	workstation-0	2	:zsh	0	:#	1	:/Users/batuhan.apaydin/pocs/docker-pocs/tini-and-distroless-poc	1	zsh	:
+pane	workstation-0	2	:zsh	0	:#	2	:/Users/batuhan.apaydin/pocs/docker-pocs/tini-and-distroless-poc	0	zsh	:
+pane	workstation-0	3	:git	1	:*	1	:/Users/batuhan.apaydin/.local/share/chezmoi	1	git	:/bin/zsh
+window	workstation-0	1	0	:-	8ae8,182x49,0,0[182x24,0,0{90x24,0,0,11,91x24,91,0,16},182x24,0,25{90x24,0,25,15,91x24,91,25,29}]
+window	workstation-0	2	0	:#	4b52,182x49,0,0[182x24,0,0,22,182x24,0,25,24]
+window	workstation-0	3	1	:*	68f1,182x49,0,0,31
+state	workstation-0	

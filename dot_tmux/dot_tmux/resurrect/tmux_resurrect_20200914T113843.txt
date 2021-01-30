@@ -1,0 +1,6 @@
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-sidecar	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	watch	:watch kubectl get all -n platform
+pane	workinstation-0	1	:zsh	1	:*	3	:/Users/batuhan.apaydin	0	watch	:watch kubectl get all
+pane	workinstation-0	1	:zsh	1	:*	4	:/Users/batuhan.apaydin	0	watch	:watch kubectl get all -n monitoring
+window	workinstation-0	1	1	:*	4a9c,231x39,0,0{115x39,0,0[115x19,0,0,0,115x19,0,20,1],115x39,116,0[115x19,116,0,2,115x19,116,20,3]}
+state	workinstation-0	
