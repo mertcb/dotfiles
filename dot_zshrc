@@ -18,6 +18,8 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
 source /usr/local/bin/virtualenvwrapper.sh
 export PATH=${PATH}:~/Library/Python/3.9/bin
+
+alias dotfile-manager="chezmoi"
 #If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 source ~/zsh-interactive-cd.plugin.zsh
