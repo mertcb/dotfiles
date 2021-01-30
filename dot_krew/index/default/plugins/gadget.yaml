@@ -1,0 +1,49 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: gadget
+spec:
+  version: v0.2.1
+  homepage: https://github.com/kinvolk/inspektor-gadget
+  shortDescription: Gadgets for debugging and introspecting apps
+  description: |
+    Inspektor Gadget is a collection of tools (or gadgets) for developers of
+    Kubernetes applications.
+
+    Inspektor Gadget is deployed to each node as a privileged DaemonSet.
+    It uses in-kernel BPF helper programs to monitor events mainly related to
+    syscalls from userspace programs in a pod. The BPF programs are run by
+    the kernel and gather the log data. Inspektor Gadget's userspace utilities
+    fetch the log data from ring buffers and display it. What BPF programs are
+    and how Inspektor Gadget uses them is briefly explained in the architecture
+    document:
+    https://github.com/kinvolk/inspektor-gadget/blob/master/Documentation/architecture.md
+  caveats: |
+    Inspektor Gadget needs to be deployed to each node:
+
+    $ kubectl gadget deploy | kubectl apply -f -
+
+    Read the documentation available at https://github.com/kinvolk/inspektor-gadget
+    to get more information about the server side installation process.
+  platforms:
+  - selector:
+      matchLabels:
+        os: linux
+        arch: amd64
+    uri: https://github.com/kinvolk/inspektor-gadget/releases/download/v0.2.1/inspektor-gadget-linux-amd64.tar.gz
+    sha256: 2d898272cf801767f841180f4f457b9a08225583562477f861da43aff4e6561f
+    bin: kubectl-gadget
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: amd64
+    uri: https://github.com/kinvolk/inspektor-gadget/releases/download/v0.2.1/inspektor-gadget-darwin-amd64.tar.gz
+    sha256: c4156e8547bbe7038265ada980ea1bc3f322a61bd3d5cc46ba3ff728d6e00610
+    bin: kubectl-gadget
+  - selector:
+      matchLabels:
+        os: windows
+        arch: amd64
+    uri: https://github.com/kinvolk/inspektor-gadget/releases/download/v0.2.1/inspektor-gadget-windows-amd64.tar.gz
+    sha256: 9df68c95738dfae11d6d34ba327d4c52026320fc5b779273cb38133b4fec2e89
+    bin: kubectl-gadget

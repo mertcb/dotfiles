@@ -1,0 +1,64 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: null
+  name: sniff
+spec:
+  caveats: |
+    This plugin needs the following programs:
+    * wireshark (optional, used for live capture)
+  description: |
+    When working with micro-services, many times it's very helpful to get a capture of the network
+    activity between your micro-service and it's dependencies.
+
+    ksniff use kubectl to upload a statically compiled tcpdump binary to your pod and redirecting it's
+    output to your local Wireshark for smooth network debugging experience.
+  homepage: https://github.com/eldadru/ksniff
+  platforms:
+  - bin: kubectl-sniff
+    files:
+    - from: kubectl-sniff-darwin
+      to: kubectl-sniff
+    - from: static-tcpdump
+      to: .
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: darwin
+    sha256: f3f11afd4c86fdc9661496f93b4db97cd3c70eef98a029f78c2a949419b51b6d
+    uri: https://github.com/eldadru/ksniff/releases/download/v1.5.0/ksniff.zip
+  - bin: kubectl-sniff
+    files:
+    - from: kubectl-sniff
+      to: .
+    - from: static-tcpdump
+      to: .
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: linux
+    sha256: f3f11afd4c86fdc9661496f93b4db97cd3c70eef98a029f78c2a949419b51b6d
+    uri: https://github.com/eldadru/ksniff/releases/download/v1.5.0/ksniff.zip
+  - bin: kubectl-sniff.exe
+    files:
+    - from: kubectl-sniff-windows
+      to: kubectl-sniff.exe
+    - from: static-tcpdump
+      to: .
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: windows
+    sha256: f3f11afd4c86fdc9661496f93b4db97cd3c70eef98a029f78c2a949419b51b6d
+    uri: https://github.com/eldadru/ksniff/releases/download/v1.5.0/ksniff.zip
+  shortDescription: Start a remote packet capture on pods using tcpdump and wireshark
+  version: v1.5.0
+status:
+  source:
+    name: default

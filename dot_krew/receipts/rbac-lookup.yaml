@@ -1,0 +1,32 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: null
+  name: rbac-lookup
+spec:
+  description: |
+    Easily find roles and cluster roles attached to any user, service account, or group name in your Kubernetes cluster.
+  homepage: https://github.com/reactiveops/rbac-lookup
+  platforms:
+  - bin: rbac-lookup
+    files:
+    - from: '*'
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: darwin
+    sha256: 7a271bddae25bc178079815954e957c80c8d7d95a060b537128ebf800692492b
+    uri: https://github.com/reactiveops/rbac-lookup/releases/download/v0.3.0/rbac-lookup_0.3.0_Darwin_x86_64.tar.gz
+  - bin: rbac-lookup
+    files:
+    - from: '*'
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: linux
+    sha256: a758133ce7c0e056f6cd90dc12b33c0c0f63c8adec37041b25891e54880db141
+    uri: https://github.com/reactiveops/rbac-lookup/releases/download/v0.3.0/rbac-lookup_0.3.0_Linux_x86_64.tar.gz
+  shortDescription: Reverse lookup for RBAC
+  version: v0.3.0

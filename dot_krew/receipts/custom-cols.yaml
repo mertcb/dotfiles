@@ -1,0 +1,42 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: null
+  name: custom-cols
+spec:
+  caveats: |
+    The list of templates is for now limited and can be retrieved with the --help option.
+    Please feel free to submit any PR upstream (see github repo) to add more.
+  description: |
+    A "kubectl get" replacement with customizable column presets.
+
+    It's time saving to retrieve some often needed infos like
+    image names, containers names, versions, labels, etc...
+    It currently supports the following templates (but PRs are welcome upstream):
+    - images
+    - resources
+    - limits
+    - requests
+    - annotations
+    - qos-class
+  homepage: https://github.com/webofmars/kubectl-custom-cols
+  platforms:
+  - bin: ./kubectl-custom-cols
+    files:
+    - from: ./kubectl-custom-cols-*/kubectl-custom-cols
+      to: .
+    - from: ./kubectl-custom-cols-*/LICENSE
+      to: .
+    - from: ./kubectl-custom-cols-*/templates/*.tpl
+      to: templates
+    selector:
+      matchExpressions:
+      - key: os
+        operator: In
+        values:
+        - darwin
+        - linux
+    sha256: ea967d0c0d73e7d26a222b8632f16a06dec9d6c8a2680b968b6fb00ca1139284
+    uri: https://github.com/webofmars/kubectl-custom-cols/archive/v0.0.5.tar.gz
+  shortDescription: A "kubectl get" replacement with customizable column presets
+  version: v0.0.5

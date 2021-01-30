@@ -1,0 +1,80 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: preflight
+spec:
+  version: v0.9.55
+  platforms:
+  - selector:
+      matchLabels:
+        os: linux
+        arch: amd64
+    uri: https://github.com/replicatedhq/troubleshoot/releases/download/v0.9.55/preflight_linux_amd64.tar.gz
+    sha256: 733fee05c45e6f3793114bf2fe861aa3dfb2e3862c06632d007cebce3de3745b
+    files:
+    - from: preflight
+      to: .
+    - from: LICENSE
+      to: .
+    bin: preflight
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: amd64
+    uri: https://github.com/replicatedhq/troubleshoot/releases/download/v0.9.55/preflight_darwin_amd64.tar.gz
+    sha256: d61938885ea94e2dd15d08bed9cf1042002e0f457a7ba28cedd6d83bfb64fe3e
+    files:
+    - from: preflight
+      to: .
+    - from: LICENSE
+      to: .
+    bin: preflight
+  - selector:
+      matchLabels:
+        os: windows
+        arch: amd64
+    uri: https://github.com/replicatedhq/troubleshoot/releases/download/v0.9.55/preflight_windows_amd64.zip
+    sha256: 4b7f21dea19b110f441cfb69a23b76eb8a069fcc3b877f6ddeb4d4f78b02e5c4
+    files:
+    - from: preflight.exe
+      to: .
+    - from: LICENSE
+      to: .
+    bin: preflight.exe
+  shortDescription: Executes application preflight tests in a cluster
+  homepage: https://github.com/replicatedhq/troubleshoot
+  description: |
+    This plugin executes application-specific preflight checks and conformance
+    tests against a cluster, prior to installation of an application.
+
+    Application developers can create and host a Preflight manifest that
+    defines the minimum and desired Kubernetes environment for an application.
+    Before installing the application, a cluster admin can use this plugin to
+    execute the application preflight checksto identify any missing
+    components, configuration or incompatibilities between the cluster and the
+    desired environment.
+
+    When executing Preflight tests, the test results will be displayed in a
+    terminal-based UI on the workstation that executed the command.
+
+    For information on creating a Preflight manifest, view the documentation
+    at https://help.replicated.com/docs/troubleshoot/kubernetes/analysis/
+
+    Usage:
+      $ kubectl preflight <uri/path>
+
+      where <uri/path> references a set of application preflight checks
+
+      For example:
+
+      $ kubectl preflight https://preflight.replicated.com
+
+    For additional options:
+      $ kubectl preflight --help
+
+    Documentation:
+      Full documentation on this plugin is available at:
+      https://help.replicated.com/docs/troubleshoot/kubernetes/preflight/overview/
+
+      For application developers writing collectors and analyzers:
+      https://help.replicated.com/docs/troubleshoot/kubernetes/collectors/defining-collectors/

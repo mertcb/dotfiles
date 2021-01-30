@@ -1,0 +1,54 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: null
+  name: pod-dive
+spec:
+  description: "Dives into a node after the desired pod and returns data associated\nwith
+    the pod no matter where it is running, such as its origin workload,\nnamespace,
+    the node where it is running and its node pod siblings, as\nwell basic health
+    status of it all.\n\nThe purpose is to have meaningful pod info at a glance without
+    needing to\nrun multiple kubectl commands to see what else is running next to
+    your\npod in a given node inside a huge cluster, because sometimes all\nyou've
+    got from an alert is the pod name. \n\nUsage\n  $ kubectl pod-dive [pod name]\n\nFor
+    additional options\n  $ kubectl pod-dive --help\n"
+  homepage: https://github.com/caiobegotti/pod-dive
+  platforms:
+  - bin: pod-dive-amd64-linux
+    files:
+    - from: ./LICENSE
+      to: .
+    - from: ./pod-dive-amd64-linux
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: linux
+    sha256: 663d7f981b3c01dc13bfc2119b0abd0b5b20c85b4b755f6fec9e8cb8be34f343
+    uri: https://github.com/caiobegotti/pod-dive/releases/download/v0.1.4/pod-dive-amd64-linux.tar.gz
+  - bin: pod-dive-amd64-darwin
+    files:
+    - from: ./LICENSE
+      to: .
+    - from: ./pod-dive-amd64-darwin
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: darwin
+    sha256: d314e57e5807afc4669c5a25852a733f1bc3140441bbd397b5666b22b5090617
+    uri: https://github.com/caiobegotti/pod-dive/releases/download/v0.1.4/pod-dive-amd64-darwin.tar.gz
+  - bin: pod-dive-amd64-windows.exe
+    files:
+    - from: ./LICENSE
+      to: .
+    - from: ./pod-dive-amd64-windows.exe
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: windows
+    sha256: 199481b1a5caffe419cf7d2972f19043655ace20ca79394784636e98693b1540
+    uri: https://github.com/caiobegotti/pod-dive/releases/download/v0.1.4/pod-dive-amd64-windows.exe.zip
+  shortDescription: Shows a pod's workload tree and info inside a node
+  version: v0.1.4

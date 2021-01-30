@@ -1,0 +1,34 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: kuttl
+spec:
+  version: "v0.8.0"
+
+  shortDescription: Declaratively run and test operators
+  homepage: https://kuttl.dev/
+  description: |
+    The KUbernetes Test TooL (KUTTL) is a highly productive test
+    toolkit for testing operators on Kubernetes.
+  platforms:
+  - selector:
+      matchLabels:
+        os: "linux"
+        arch: "amd64"
+    uri: https://github.com/kudobuilder/kuttl/releases/download/v0.8.0/kuttl_0.8.0_linux_x86_64.tar.gz
+    sha256: "27bf340f1d05fe331cf139bf472e705a6a322f1947adba3ebf2ed80dff2435ed"
+    bin: "./kubectl-kuttl"
+  - selector:
+      matchLabels:
+        os: "linux"
+        arch: "386"
+    uri: https://github.com/kudobuilder/kuttl/releases/download/v0.8.0/kuttl_0.8.0_linux_i386.tar.gz
+    sha256: "880615372de849b1c06e5bbb7f665d809850c14dc067087d0c10527f4e101fec"
+    bin: "./kubectl-kuttl"
+  - selector:
+      matchLabels:
+        os: "darwin"
+        arch: "amd64"
+    uri: https://github.com/kudobuilder/kuttl/releases/download/v0.8.0/kuttl_0.8.0_darwin_x86_64.tar.gz
+    sha256: "15019daff4338f9dea433e1da4c410e57a308cc3cfc18dac583e570d70c50a8d"
+    bin: "./kubectl-kuttl"

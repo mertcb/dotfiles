@@ -1,0 +1,58 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: null
+  name: cert-manager
+spec:
+  description: |
+    The official plugin accompanying cert-manger, a Kubernetes add-on to
+    automate the management and issuance of TLS certificates. Allows for
+    direct interaction with cert-manager resources e.g. manual renewal of
+    Certificate resources.
+  homepage: https://github.com/jetstack/cert-manager
+  platforms:
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: amd64
+        os: darwin
+    sha256: 6fd3f7483136d067a19f9fb6aa01eb041f33d398362c598e3f8404694c2f8ad3
+    uri: https://github.com/jetstack/cert-manager/releases/download/v1.0.1/kubectl-cert_manager-darwin-amd64.tar.gz
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: amd64
+        os: linux
+    sha256: ef39ea6f6360e7c52d9b0279026ecd626c0c0cbb22b31f045bd9bb2c1ed33f08
+    uri: https://github.com/jetstack/cert-manager/releases/download/v1.0.1/kubectl-cert_manager-linux-amd64.tar.gz
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: arm
+        os: linux
+    sha256: 694286b47127bd43af22d889c8283934eedc87b7fb51e56775c0c1ed46e09994
+    uri: https://github.com/jetstack/cert-manager/releases/download/v1.0.1/kubectl-cert_manager-linux-arm.tar.gz
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: arm64
+        os: linux
+    sha256: 92a6bda8f8dbc6eac2a40796a550ffca25484c5172ed37ab48ba7fdb89db2785
+    uri: https://github.com/jetstack/cert-manager/releases/download/v1.0.1/kubectl-cert_manager-linux-arm64.tar.gz
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: amd64
+        os: windows
+    sha256: f50b2b72d92313cbe93070fde008699172308ccbd48d98ee00eb875e353e84fe
+    uri: https://github.com/jetstack/cert-manager/releases/download/v1.0.1/kubectl-cert_manager-windows-amd64.tar.gz
+  shortDescription: Manage cert-manager resources inside your cluster
+  version: v1.0.1
+status:
+  source:
+    name: default
