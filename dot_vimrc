@@ -46,6 +46,7 @@ call plug#begin(expand('~/./plugged'))
 "*****************************************************************************
 "" Plug install packages
 "*****************************************************************************
+Plug 'itspriddle/vim-shellcheck'
 Plug 'ernstwi/vim-secret'
 Plug 'tsandall/vim-rego'
 Plug 'hashivim/vim-terraform'
@@ -103,6 +104,7 @@ Plug 'connorholyday/vim-snazzy'
 "*****************************************************************************
 "docker
 Plug 'skanehira/docker.vim'
+Plug 'ekalinin/dockerfile.vim'
 
 " markdown
 Plug 'junegunn/goyo.vim'
