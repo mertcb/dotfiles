@@ -4,7 +4,6 @@ fpath+=~/.zfunc
 EDITOR="code -w"
 # If command execution time above min. time, plugins will not output time.
 ZSH_COMMAND_TIME_MIN_SECONDS=1
-alias kubectl="kubecolor"
 alias exa="exa --classify --icons --group-directories-first --color-scale --color always "
 . $(pack completion --shell zsh)
 # Message to display (set to "" for disable).
@@ -46,7 +45,7 @@ alias k="kubectl"
 alias watch='watch '
 export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
-export GOROOT="/usr/local/Cellar/go/1.15.7/libexec"
+export GOROOT="/usr/local/Cellar/go/1.15.7_1/libexec"
 export PATH=$PATH:$GOBIN
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 DISABLE_AUTO_TITLE="true"
@@ -60,7 +59,7 @@ export ZSH="/Users/batuhan.apaydin/.oh-my-zsh"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="lambda-mod"
-ZSH_THEME="shades-of-purple"
+ZSH_THEME="lambda-mod"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
