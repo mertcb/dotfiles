@@ -12,10 +12,6 @@ export TERM="xterm-256color"
 # Message color.
 ZSH_COMMAND_TIME_COLOR="cyan"
 # neofetch --ascii_distro Linux
-export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
-source /usr/local/bin/virtualenvwrapper.sh
 export PATH=${PATH}:~/Library/Python/3.9/bin
 
 alias dotfile-manager="chezmoi"
