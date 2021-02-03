@@ -224,6 +224,8 @@ eval "$(starship init zsh)"
 source ~/completions/_istioctl
 
 
+source <(curl -sSL git.io/forgit)
+
 # from ahmetb's dotfiles
 
 # Load custom functions
