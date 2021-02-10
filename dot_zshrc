@@ -33,6 +33,7 @@ export KUBECTX_CURRENT_FGCOLOR=$(tput setaf 6) # blue text
 export KUBECTX_CURRENT_BGCOLOR=$(tput setaf 7) # white background
 # Aliases
 alias selfnotary="notary -s https://notary-server:4443 -d ~/.docker/trust --tlscacert ~/.notary/root-ca.crt"
+alias kubenotary="notary -s https://notary-server-svc:4443 -d ~/.docker/trust --tlscacert ~/.docker/tls/notary-server-svc:4443/root-ca.crt"
 alias transt="trans -t turkish $1"
 alias transe="trans -t english $1"
 alias gcr="git checkout -"
@@ -55,7 +56,7 @@ export ZSH="/Users/batuhan.apaydin/.oh-my-zsh"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="lambda-mod"
-ZSH_THEME="lambda-mod"
+# ZSH_THEME="lambda-mod"
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -293,3 +294,5 @@ b() {
 source /Users/batuhan.apaydin/.config/broot/launcher/bash/br
 alias cp="/usr/local/bin/advcp -g"
 alias mv="/usr/local/bin/advmv -g"
+alias l='exa --classify --grid --icons --group-directories-first --color-scale --color always'
+alias ll='exa --git --group-directories-first --classify --icons --color-scale --color always -laFm'

@@ -210,7 +210,7 @@ set number
 let no_buffers_menu=1
 
 """" enable the theme
-silent! colorscheme snazzy
+silent! colorscheme molokai
 
 set mousemodel=popup
 set t_Co=256
