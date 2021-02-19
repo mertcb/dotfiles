@@ -46,6 +46,7 @@ call plug#begin(expand('~/./plugged'))
 "*****************************************************************************
 "" Plug install packages
 "*****************************************************************************
+Plug 'Valloric/YouCompleteMe'
 Plug 'itspriddle/vim-shellcheck'
 Plug 'ernstwi/vim-secret'
 Plug 'tsandall/vim-rego'
