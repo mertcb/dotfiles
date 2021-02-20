@@ -118,12 +118,14 @@ brew "libmagic"
 brew "libomp"
 brew "clair"
 brew "cmake"
+brew "cointop"
 brew "colordiff"
 brew "consul"
 brew "consul-template"
 brew "container-diff"
 brew "cowsay"
 brew "crane"
+brew "csshx"
 brew "ctop"
 brew "kubernetes-cli"
 brew "devspace"
@@ -436,6 +438,7 @@ cask "webstorm"
 cask "whatsapp"
 cask "wireshark"
 cask "zoom"
+mas "Crypto Pro", id: 980888073
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
