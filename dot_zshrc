@@ -1,5 +1,8 @@
 autoload -Uz compinit
 compinit
+
+POC_HOME="/Users/batuhan.apaydin/workspace/projects/personal/poc"
+TRENDYOL_HOME="/Users/batuhan.apaydin/workspace/projects/trendyol"
 fpath+=~/.zfunc
 EDITOR="code -w"
 # If command execution time above min. time, plugins will not output time.
@@ -13,7 +16,7 @@ export TERM="xterm-256color"
 ZSH_COMMAND_TIME_COLOR="cyan"
 # neofetch --ascii_distro Linux
 export PATH=${PATH}:~/Library/Python/3.9/bin
-
+alias rss=newsboat --refresh-on-start --quiet
 alias dotfile-manager="chezmoi"
 #If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -42,7 +45,7 @@ alias k="kubectl"
 alias watch='watch '
 export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
-export GOROOT="/usr/local/Cellar/go/1.15.7_1/libexec"
+export GOROOT="/usr/local/Cellar/go/1.16/libexec"
 export PATH=$PATH:$GOBIN
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 DISABLE_AUTO_TITLE="true"
