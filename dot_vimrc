@@ -7,7 +7,8 @@ let vimplug_exists=expand('~/./autoload/plug.vim')
 
 let g:vim_bootstrap_langs = "go,html,javascript,rust,typescript"
 let g:vim_bootstrap_editor = ""				" nvim or vim
-
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+let g:yaml_limit_spell = 1
 set backspace=indent,eol,start
 set relativenumber
 set number
@@ -46,6 +47,7 @@ call plug#begin(expand('~/./plugged'))
 "*****************************************************************************
 "" Plug install packages
 "*****************************************************************************
+Plug 'stephpy/vim-yaml'
 Plug 'Valloric/YouCompleteMe'
 Plug 'itspriddle/vim-shellcheck'
 Plug 'ernstwi/vim-secret'
@@ -438,6 +440,10 @@ let g:UltiSnipsEditSplit="vertical"
 
 " ale
 let g:ale_linters = {}
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = '⚠'
+let g:ale_lint_on_text_changed = 'never'
 
 " Tagbar
 nmap <silent> <F4> :TagbarToggle<CR>
