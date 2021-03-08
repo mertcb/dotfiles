@@ -156,8 +156,6 @@ source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 
 . /usr/local/opt/asdf/asdf.sh
 
-
-complete -o nospace -C /usr/local/bin/vault vault
 case $TERM in
     xterm*|rxvt*)
         AUTOSUGGESTION_HIGHLIGHT_COLOR="fg=8"
@@ -200,8 +198,6 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=129"
 
 export PATH="/usr/local/opt/gettext/bin:$PATH"
 # [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
-
-complete -o nospace -C /usr/local/bin/consul consul
 
 source ~/.zplug/init.zsh
 # zplug clean --force
@@ -285,3 +281,7 @@ alias cp="/usr/local/bin/advcp -g"
 alias mv="/usr/local/bin/advmv -g"
 alias l='exa --classify --grid --icons --group-directories-first --color-scale --color always'
 alias ll='exa --git --group-directories-first --classify --icons --color-scale --color always -laFm'
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/vault vault
+complete -o nospace -C /usr/local/bin/consul consul
