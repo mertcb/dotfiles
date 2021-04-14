@@ -25,7 +25,6 @@ alias dotfile-manager="chezmoi"
 #If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 source ~/zsh-interactive-cd.plugin.zsh
-source <(oc completion zsh)
 source <(operator-sdk completion zsh)
 source <(kind completion zsh)
 source <(stern --completion=zsh)
@@ -110,11 +109,18 @@ export ZSH="/Users/batuhan.apaydin/.oh-my-zsh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(kubectl_color you-should-use fzf-tab colored-man-pages hostctl git-extra-commands terraform command-time zsh-completions docker-compose docker-machine vagrant aws zsh-syntax-highlighting zsh-autosuggestions oc git autojump docker git-extras kubectl minikube)
+plugins=(you-should-use fzf-tab colored-man-pages hostctl git-extra-commands terraform command-time zsh-completions docker-compose docker-machine vagrant aws zsh-syntax-highlighting zsh-autosuggestions git autojump docker git-extras minikube)
 source $ZSH/oh-my-zsh.sh
-fpath=(~/.zsh/completion $fpath)
-fpath=(~/.zsh/completion/zsh-completions/src $fpath)
 # User configuration
+
+function kubectl() {
+    if ! type __start_kubectl >/dev/null 2>&1; then
+        source <(command kubectl completion zsh)
+    fi
+
+    command kubectl "$@"
+}
+
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -209,7 +215,6 @@ complete -o nospace -C /usr/local/bin/kustomize kustomize
 eval "$(starship init zsh)"
 source ~/completions/_istioctl
 
-
 source <(curl -sSL git.io/forgit)
 
 # from ahmetb's dotfiles
@@ -226,7 +231,6 @@ unalias gupv
 unalias gp
 unalias gcl
 unalias grv
-
 
 alias gp='_git_dbg  push'
 alias gpsup='_git_dbg push --set-upstream origin $(git_current_branch)'
@@ -252,8 +256,6 @@ b() {
   | xargs open
 }
 
-
-source /Users/batuhan.apaydin/.config/broot/launcher/bash/br
 alias cp="/usr/local/bin/advcp -g"
 alias mv="/usr/local/bin/advmv -g"
 alias l='exa --classify --grid --icons --group-directories-first --color-scale --color always'
