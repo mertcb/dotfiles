@@ -41,6 +41,8 @@ source <(tmuxinator completions zsh)
 source <(faas-cli completion --shell zsh)
 # Zsh (add to .zshrc for persistence)
 source <(kompose completion zsh)
+source <(argo completion zsh)
+source <(kn completion zsh)
 eval "$(direnv hook zsh)"
 export KUBE_EDITOR="code -w"
 export KUBECTL_EXTERNAL_DIFF="meld"
