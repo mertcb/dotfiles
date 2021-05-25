@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/opa-synker	0	zsh	:/bin/zsh
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/helm/config-injector-chart	1	bat	:bat .gitlab-ci.yml
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/opa-synker	0	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/trendyol/platform/base/container/helm/config-injector-chart	1	bat	:bat .gitlab-ci.yml
 window	workinstation-0	1	1	:*	940e,231x64,0,0[231x32,0,0,15,231x31,0,33,41]
 state	workinstation-0	

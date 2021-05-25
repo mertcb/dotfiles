@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	opa	:opa run --server --addr=unix:///tmp/opa.sock
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	opa	:opa run --server --addr=unix:///tmp/opa.sock
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
 window	workinstation-0	1	1	:*	aefd,231x64,0,0{115x64,0,0,45,115x64,116,0,52}
 state	workinstation-0	

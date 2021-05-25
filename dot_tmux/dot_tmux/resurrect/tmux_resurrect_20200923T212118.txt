@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/scripts/setup/prometheus-grafana	0	minikube	:minikube start
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/scripts/setup/prometheus-grafana	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/scripts/setup/prometheus-grafana	0	minikube	:minikube start
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/scripts/setup/prometheus-grafana	1	zsh	:
 window	workinstation-0	1	1	:*	bb09,231x64,0,0{115x64,0,0,2,115x64,116,0,4}
 state	workinstation-0	

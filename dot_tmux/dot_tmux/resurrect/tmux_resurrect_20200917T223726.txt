@@ -1,3 +1,3 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/pocs/app-with-custom-prometheus-metrics/setup	1	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/pocs/app-with-custom-prometheus-metrics/setup	1	zsh	:/bin/zsh
 window	workinstation-0	1	1	:*	cde4,231x58,0,0,7
 state	workinstation-0	

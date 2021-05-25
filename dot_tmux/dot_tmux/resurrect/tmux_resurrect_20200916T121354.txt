@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/pocs/gitlab-dind-kind-problem	0	docker-compose	:docker-compose up
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/pocs/gitlab-dind-kind-problem	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/pocs/gitlab-dind-kind-problem	0	docker-compose	:docker-compose up
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/pocs/gitlab-dind-kind-problem	1	zsh	:
 window	workinstation-0	1	1	:*	85be,231x58,0,0{115x58,0,0,7,115x58,116,0,11}
 state	workinstation-0	

@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin	0	octant	:/bin/zsh
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/pocs/starboard-poc	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic	0	octant	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/pocs/starboard-poc	1	zsh	:
 window	workinstation-0	1	1	:*	193e,151x45,0,0{75x45,0,0,15,75x45,76,0,30}
 state	workinstation-0	

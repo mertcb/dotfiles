@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:/bin/zsh
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:/bin/zsh
 window	workinstation-0	1	1	:*	258f,231x64,0,0[231x33,0,0,15,231x30,0,34,23]
 state	workinstation-0	

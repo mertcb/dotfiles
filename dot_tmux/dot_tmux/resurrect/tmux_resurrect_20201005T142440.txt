@@ -1,6 +1,6 @@
-pane	1	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/docker/config-sidecar	0	watch	:watch kubectl get all
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
+pane	1	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/trendyol/platform/base/container/docker/config-sidecar	0	watch	:watch kubectl get all
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
 window	1	1	1	:*	bfe6,231x64,0,0,9
 window	workinstation-0	1	1	:*	3b0e,231x64,0,0{115x64,0,0,5,115x64,116,0,7}
 state	workinstation-0	1

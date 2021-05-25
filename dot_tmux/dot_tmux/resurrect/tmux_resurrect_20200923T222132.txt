@@ -1,8 +1,8 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/scripts/setup/prometheus-grafana	0	zsh	:
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/scripts/setup/prometheus-grafana	0	zsh	:
-pane	workinstation-0	1	:zsh	1	:*	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	minikube	:minikube start
-pane	workinstation-0	1	:zsh	1	:*	4	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
-pane	workinstation-0	1	:zsh	1	:*	5	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
-pane	workinstation-0	1	:zsh	1	:*	6	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/scripts/setup/prometheus-grafana	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s/scripts/setup/prometheus-grafana	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	3	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	minikube	:minikube start
+pane	workinstation-0	1	:zsh	1	:*	4	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	5	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	6	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
 window	workinstation-0	1	1	:*	83b6,231x64,0,0{115x64,0,0[115x32,0,0,2,115x31,0,33,5],115x64,116,0[115x16,116,0,4,115x15,116,17,8,115x15,116,33,6,115x15,116,49,7]}
 state	workinstation-0	

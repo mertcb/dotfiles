@@ -1,5 +1,5 @@
-pane	1	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/pocs/magalix/implementing-faas-in-kubernertes-using-kubeless	1	zsh	:/bin/zsh
+pane	1	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/pocs/magalix/implementing-faas-in-kubernertes-using-kubeless	1	zsh	:/bin/zsh
 window	1	1	1	:*	bfe6,231x64,0,0,9
 window	workinstation-0	1	1	:*	6054,151x45,0,0,15
 state	workinstation-0	1

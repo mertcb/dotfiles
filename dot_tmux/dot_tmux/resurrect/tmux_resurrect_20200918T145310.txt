@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/prod	1	zsh	:/bin/zsh
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/stage	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/vault-consul-management-workspace/prod	1	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/vault-consul-management-workspace/stage	0	zsh	:
 window	workinstation-0	1	1	:*	a925,231x64,0,0[231x32,0,0,7,231x31,0,33,18]
 state	workinstation-0	

@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/container/docker/config-sidecar	0	zsh	:/bin/zsh
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/pocs/vagrants/buildah-poc	1	vagrant	:vagrant resume buildah
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/trendyol/platform/base/container/docker/config-sidecar	0	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/pocs/vagrants/buildah-poc	1	vagrant	:vagrant resume buildah
 window	workinstation-0	1	1	:*	940f,231x64,0,0[231x32,0,0,15,231x31,0,33,24]
 state	workinstation-0	

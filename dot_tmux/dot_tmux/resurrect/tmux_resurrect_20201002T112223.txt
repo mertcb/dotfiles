@@ -1,3 +1,3 @@
-pane	workinstation-0	1	:ko	1	:*	1	:/Users/batuhan.apaydin/pocs/simple-kubernetes-controller	1	ko	:ko apply -W -f deploy
+pane	workinstation-0	1	:ko	1	:*	1	:/Users/mert.bilgic/pocs/simple-kubernetes-controller	1	ko	:ko apply -W -f deploy
 window	workinstation-0	1	1	:*	6050,151x45,0,0,30
 state	workinstation-0	

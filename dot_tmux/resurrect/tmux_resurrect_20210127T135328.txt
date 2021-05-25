@@ -1,5 +1,5 @@
-pane	workstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	0	vim	:/bin/zsh
-pane	workstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/test-p1-1devops.idc	1	zsh	:
-pane	workstation-0	1	:zsh	1	:*	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:/bin/zsh
+pane	workstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/personal-projects/simple-golang-app	0	vim	:/bin/zsh
+pane	workstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/test-p1-1devops.idc	1	zsh	:
+pane	workstation-0	1	:zsh	1	:*	3	:/Users/mert.bilgic/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:/bin/zsh
 window	workstation-0	1	1	:*	5969,196x51,0,0[196x25,0,0{98x25,0,0,11,97x25,99,0,16},196x25,0,26,15]
 state	workstation-0	

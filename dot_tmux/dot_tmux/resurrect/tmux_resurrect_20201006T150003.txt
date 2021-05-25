@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/pocs/vagrants/buildah-poc	0	ssh	:/bin/zsh
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	git	:git push
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/pocs/vagrants/buildah-poc	0	ssh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	git	:git push
 window	workinstation-0	1	1	:*	940e,231x64,0,0[231x32,0,0,15,231x31,0,33,22]
 state	workinstation-0	

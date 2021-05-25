@@ -221,7 +221,7 @@ export PATH="/usr/local/opt/gettext/bin:$PATH"
 source <(antibody init)
 antibody bundle < ~/.zsh_plugins.txt
 
-export KUBEVAL_SCHEMA_LOCATION=file:///Users/batuhan.apaydin/.kubeval/schemas
+export KUBEVAL_SCHEMA_LOCATION=file:///Users/mert.bilgic/.kubeval/schemas
 
 complete -o nospace -C /usr/local/bin/kustomize kustomize
 source ~/completions/_istioctl

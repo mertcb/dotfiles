@@ -1,8 +1,8 @@
-pane	workstation-0	1	:zsh	0	:-	1	:/Users/batuhan.apaydin/personal-projects/simple-golang-app	1	vim	:/bin/zsh
-pane	workstation-0	1	:zsh	0	:-	2	:/Users/batuhan.apaydin/test-p1-1devops.idc	0	zsh	:
-pane	workstation-0	1	:zsh	0	:-	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:/bin/zsh
-pane	workstation-0	2	:zsh	1	:*	1	:/Users/batuhan.apaydin	0	zsh	:
-pane	workstation-0	2	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/trendyol/platform/base/apps/config-admission-webhook	1	zsh	:
+pane	workstation-0	1	:zsh	0	:-	1	:/Users/mert.bilgic/personal-projects/simple-golang-app	1	vim	:/bin/zsh
+pane	workstation-0	1	:zsh	0	:-	2	:/Users/mert.bilgic/test-p1-1devops.idc	0	zsh	:
+pane	workstation-0	1	:zsh	0	:-	3	:/Users/mert.bilgic/trendyol-projects/gitlab/trendyol/platform/base/pipeline	0	zsh	:/bin/zsh
+pane	workstation-0	2	:zsh	1	:*	1	:/Users/mert.bilgic	0	zsh	:
+pane	workstation-0	2	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/trendyol/platform/base/apps/config-admission-webhook	1	zsh	:
 window	workstation-0	1	0	:-	950d,182x49,0,0[182x24,0,0{91x24,0,0,11,90x24,92,0,16},182x24,0,25,15]
 window	workstation-0	2	1	:*	cb51,182x49,0,0[182x24,0,0,22,182x24,0,25,23]
 state	workstation-0	

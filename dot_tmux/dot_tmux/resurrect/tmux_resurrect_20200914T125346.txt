@@ -1,8 +1,8 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-sidecar	1	kubectl	:/Users/batuhan.apaydin/.asdf/installs/kubectl/1.18.3/bin/kubectl port-forward -n monitoring svc/prometheus-server 9090:80
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
-pane	workinstation-0	1	:zsh	1	:*	3	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	kubectl	:/Users/batuhan.apaydin/.asdf/installs/kubectl/1.18.3/bin/kubectl port-forward -n platform config-sidecar-injector-deployment-7847fcb8d-w7lwf 8085:8443
-pane	workinstation-0	1	:zsh	1	:*	4	:/Users/batuhan.apaydin	0	watch	:watch kubectl get all
-pane	workinstation-0	1	:zsh	1	:*	5	:/Users/batuhan.apaydin	0	watch	:watch kubectl get all -n monitoring
-pane	workinstation-0	1	:zsh	1	:*	6	:/Users/batuhan.apaydin	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-sidecar	1	kubectl	:/Users/mert.bilgic/.asdf/installs/kubectl/1.18.3/bin/kubectl port-forward -n monitoring svc/prometheus-server 9090:80
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	3	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	kubectl	:/Users/mert.bilgic/.asdf/installs/kubectl/1.18.3/bin/kubectl port-forward -n platform config-sidecar-injector-deployment-7847fcb8d-w7lwf 8085:8443
+pane	workinstation-0	1	:zsh	1	:*	4	:/Users/mert.bilgic	0	watch	:watch kubectl get all
+pane	workinstation-0	1	:zsh	1	:*	5	:/Users/mert.bilgic	0	watch	:watch kubectl get all -n monitoring
+pane	workinstation-0	1	:zsh	1	:*	6	:/Users/mert.bilgic	0	zsh	:
 window	workinstation-0	1	1	:*	578f,231x39,0,0{115x39,0,0[115x19,0,0,0,115x9,0,20,1,115x9,0,30,5],115x39,116,0[115x19,116,0,2,115x9,116,20,3,115x9,116,30,6]}
 state	workinstation-0	

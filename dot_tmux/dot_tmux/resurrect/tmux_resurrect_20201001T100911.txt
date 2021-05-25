@@ -1,4 +1,4 @@
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	podman-machine	:podman-machine create --virtualbox-boot2podman-url https://github.com/snowjet/boot2podman-fedora-iso/releases/download/latest/boot2podman-fedora.iso --virtualbox-memory=4096 --virtualbox-share-folder /Users/batuhan.apaydin/podman-workspace:code box
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	0	podman-machine	:podman-machine create --virtualbox-boot2podman-url https://github.com/snowjet/boot2podman-fedora-iso/releases/download/latest/boot2podman-fedora.iso --virtualbox-memory=4096 --virtualbox-share-folder /Users/mert.bilgic/podman-workspace:code box
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
 window	workinstation-0	1	1	:*	5947,151x45,0,0{75x45,0,0,19,75x45,76,0,23}
 state	workinstation-0	

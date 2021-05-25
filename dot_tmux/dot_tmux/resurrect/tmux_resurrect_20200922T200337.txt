@@ -1,8 +1,8 @@
-pane	1	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
-pane	workinstation-0	1	:zsh	1	:*	1	:/Users/batuhan.apaydin/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:/bin/zsh
-pane	workinstation-0	1	:zsh	1	:*	2	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/alicloud	0	watch	:watch kubectl get all -n platform
-pane	workinstation-0	2	:zsh	0	:#-	1	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/prod	0	zsh	:
-pane	workinstation-0	2	:zsh	0	:#-	2	:/Users/batuhan.apaydin/trendyol-projects/vault-consul-management-workspace/prod	1	zsh	:
+pane	1	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:
+pane	workinstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/sfront/base/trendyol-config-k8s	1	zsh	:/bin/zsh
+pane	workinstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/trendyol-projects/vault-consul-management-workspace/alicloud	0	watch	:watch kubectl get all -n platform
+pane	workinstation-0	2	:zsh	0	:#-	1	:/Users/mert.bilgic/trendyol-projects/vault-consul-management-workspace/prod	0	zsh	:
+pane	workinstation-0	2	:zsh	0	:#-	2	:/Users/mert.bilgic/trendyol-projects/vault-consul-management-workspace/prod	1	zsh	:
 window	1	1	1	:*	6024,231x64,0,0,15
 window	workinstation-0	1	1	:*	a921,231x64,0,0[231x32,0,0,7,231x31,0,33,10]
 window	workinstation-0	2	0	:#-	d1aa,231x64,0,0[231x32,0,0,1,231x31,0,33,2]
