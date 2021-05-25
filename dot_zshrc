@@ -12,8 +12,8 @@ else
 	compinit -C;
 fi;
 
-POC_HOME="/Users/batuhan.apaydin/workspace/projects/personal/poc"
-TRENDYOL_HOME="/Users/batuhan.apaydin/workspace/projects/trendyol"
+POC_HOME="/Users/mert.bilgic/Desktop/projects"
+TRENDYOL_HOME="/Users/mert.bilgic/Desktop/Trendyol"
 fpath+=~/.zfunc
 EDITOR="code -w"
 # If command execution time above min. time, plugins will not output time.
@@ -66,7 +66,7 @@ export PATH=$PATH:~/.local/bin
 alias httpie=http
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/batuhan.apaydin/.oh-my-zsh"
+export ZSH="/Users/mert.bilgic/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -166,7 +166,7 @@ function kubectl() {
 export PATH="/usr/local/sbin:$PATH"
 complete -o nospace -C /usr/local/bin/terraform terraform
 alias rm="rm -i"
-export GOPATH=/Users/batuhan.apaydin/go
+export GOPATH=/Users/mert.bilgic/go
 source <(helm completion zsh)
 
 source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'

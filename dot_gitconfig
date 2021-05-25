@@ -1,17 +1,17 @@
 [branch]
 	autosetuprebase = always
 [user]
-	name = Batuhan Apaydın
-	email = batuhan.apaydin@trendyol.com
+	name = Mert Bilgiç
+	email = mert.bilgic@trendyol.com
 [commit]
-	template = /Users/batuhan.apaydin/.stCommitMsg
+	template = /Users/mert.bilgic/.stCommitMsg
 	cleanup = strip
 [color]
 	ui = auto
 [core]
     editor = code --wait
     pager = delta
-	excludesfile = /Users/batuhan.apaydin/.gitignore_global
+	excludesfile = /Users/mert.bilgic/.gitignore_global
 [rerere]
 	enabled = true
 [http]
