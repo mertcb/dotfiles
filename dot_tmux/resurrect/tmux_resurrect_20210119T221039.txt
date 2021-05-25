@@ -1,8 +1,0 @@
-pane	workstation-0	1	:zsh	0	:-	1	:/Users/mert.bilgic/test-p1-1devops.idc	0	zsh	:/bin/zsh
-pane	workstation-0	1	:zsh	0	:-	2	:/Users/mert.bilgic/personal-projects/simple-golang-app	1	zsh	:
-pane	workstation-0	1	:zsh	0	:-	3	:/Users/mert.bilgic/personal-projects/cts-security-admin-pipeline	0	zsh	:
-pane	workstation-0	2	:zsh	1	:*	1	:/Users/mert.bilgic/pocs/ansible-pocs/call-first-role	1	zsh	:
-pane	workstation-0	2	:zsh	1	:*	2	:/Users/mert.bilgic/pocs/terraform-pocs/my-first-droplet-on-digitalocean/configuration-automation	0	zsh	:
-window	workstation-0	1	0	:-	ecd4,212x56,0,0[212x28,0,0{106x28,0,0,1,105x28,107,0,7},212x27,0,29,6]
-window	workstation-0	2	1	:*	060b,212x56,0,0{106x56,0,0,8,105x56,107,0,9}
-state	workstation-0	

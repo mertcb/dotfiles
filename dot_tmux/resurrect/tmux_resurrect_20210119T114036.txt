@@ -1,5 +1,0 @@
-pane	workstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/test-p1-1devops.idc	0	zsh	:/bin/zsh
-pane	workstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/personal-projects/simple-golang-app	1	zsh	:
-pane	workstation-0	1	:zsh	1	:*	3	:/Users/mert.bilgic/personal-projects/cts-security-admin-pipeline	0	zsh	:
-window	workstation-0	1	1	:*	acf5,255x67,0,0[255x34,0,0{128x34,0,0,1,126x34,129,0,7},255x32,0,35,6]
-state	workstation-0	

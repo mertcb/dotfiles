@@ -1,6 +1,0 @@
-pane	workstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/personal-projects/ansible-mitogen-pipelining-benchmark	1	zsh	:
-pane	workstation-0	1	:zsh	1	:*	2	:/Users/mert.bilgic/personal-projects/ansible-mitogen-pipelining-benchmark	0	tail	:tail -f ./logs/default.log
-pane	workstation-0	1	:zsh	1	:*	3	:/Users/mert.bilgic/personal-projects/ansible-mitogen-pipelining-benchmark	0	tail	:tail -f ./logs/pipelining.log
-pane	workstation-0	1	:zsh	1	:*	4	:/Users/mert.bilgic/personal-projects/ansible-mitogen-pipelining-benchmark	0	tail	:tail -f ./logs/mitogen.log
-window	workstation-0	1	1	:*	134d,255x71,0,0[255x39,0,0,1,255x31,0,40{87x31,0,40,2,83x31,88,40,3,83x31,172,40,4}]
-state	workstation-0	

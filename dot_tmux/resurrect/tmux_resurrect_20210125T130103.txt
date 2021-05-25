@@ -1,3 +1,0 @@
-pane	workstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/trendyol-projects/gitlab/trendyol/platform/devops/base/services/k8s	1	zsh	:
-window	workstation-0	1	1	:*	c5de,212x56,0,0,1
-state	workstation-0	

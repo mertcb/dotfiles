@@ -1,3 +1,0 @@
-pane	workstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic/pocs/terraform-pocs/my-first-droplet-on-digitalocean	1	zsh	:fzf --ansi --bind=tab:down,btab:up,change:top,ctrl-space:toggle --color=hl:188 --cycle --delimiter=\x00 --expect=/,alt-enter --header-lines=0 --height=32 --layout=reverse --multi --nth=2,3 --print-query --query=+n --tiebreak=begin
-window	workstation-0	1	1	:*	cd7d,182x48,0,0,0
-state	workstation-0	

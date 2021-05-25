@@ -1,3 +1,0 @@
-pane	workstation-0	1	:zsh	1	:*	1	:/Users/mert.bilgic	1	zsh	:sh
-window	workstation-0	1	1	:*	aec1,137x40,0,0,4
-state	workstation-0	

@@ -1,7 +1,0 @@
-pane	workstation-0	1	:zsh	0	:-	1	:/Users/mert.bilgic/test-p1-1devops.idc	0	zsh	:/bin/zsh
-pane	workstation-0	1	:zsh	0	:-	2	:/Users/mert.bilgic/personal-projects/simple-golang-app	1	zsh	:
-pane	workstation-0	1	:zsh	0	:-	3	:/Users/mert.bilgic/personal-projects/cts-security-admin-pipeline	0	zsh	:
-pane	workstation-0	2	:Python	1	:*	1	:/Users/mert.bilgic/.ansible/roles	1	Python	:/usr/local/Cellar/python@3.9/3.9.1_6/Frameworks/Python.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /usr/local/bin/ansible-galaxy role import developer-guy create-user-with-ssh-role -vvv
-window	workstation-0	1	0	:-	ecd4,212x56,0,0[212x28,0,0{106x28,0,0,1,105x28,107,0,7},212x27,0,29,6]
-window	workstation-0	2	1	:*	631f,212x56,0,0,10
-state	workstation-0	
